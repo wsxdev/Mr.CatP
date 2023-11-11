@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigationView">
+
+    <group>
+
+        <item android:id="@+id/nav_drawer_inicio"
+            android:icon="@drawable/ic_home"
+            android:title="Inicio"/>
+
+        <item android:id="@+id/nav_drawer_ajustes"
+            android:icon="@drawable/ic_setting"
+            android:title="Ajustes" />
+
+
+        <item android:id="@+id/nav_drawer_info"
+            android:icon="@drawable/ic_info"
+            android:title="Información" />
+
+        <item android:id="@+id/nav_drawer_reportar_problema"
+            android:icon="@drawable/ic_report_problem"
+            android:title="Reportar errores"/>
+
+    </group>
+</menu>

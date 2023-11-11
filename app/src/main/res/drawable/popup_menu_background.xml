@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/popup_menu_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/colorTEST" /> <!-- Color de fondo del menú emergente -->
+    <corners android:radius="16dp" /> <!-- Radio de las esquinas (ajusta según tus preferencias) -->
+</shape>

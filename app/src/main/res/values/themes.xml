@@ -1,0 +1,184 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme. -->
+    <!-- <style name="Theme.MrCatG" parent="Theme.Material3.DayNight.NoActionBar"> -->
+    <style name="Theme.MrCatG" parent="Theme.AppCompat.NoActionBar">
+    </style>
+
+    <!-- ESTILOS DE TEXTOS -->
+    <style name="ColorTextG">
+        <item name="android:textColor">@color/colorTextBlackG</item>
+        <item name="android:background">@color/colorTransparent</item>
+    </style>
+
+    <style name="ColorTextG2">
+        <item name="android:textColor">@color/colorOpaqueTextDescription</item>
+        <item name="android:background">@color/colorTransparent</item>
+    </style>
+
+    <!-- ESTILO DEL ACTIVITY -->
+    <style name="bgActivity" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">@color/colorTransparent</item>
+        <item name="android:statusBarColor">@color/colorStatusBar</item>
+        <item name="android:navigationBarColor">@color/colorBgActivityGeneral</item>
+    </style>
+
+    <!-- ESTILO PARA LA TOOLBAR -->
+    <style name="ToolBar" parent="Theme.AppCompat">
+        <item name="android:background">@color/colorBgToolBar</item>
+    </style>
+
+    <!-- ESTILO PARA LOS MENÚS EMERGENTES DE LA TOOLBAR -->
+    <style name="PopupMenuStyle" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:backgroundTint">@color/colorBgLayoutsFloatGeneral</item>
+        <item name="android:textColor">@color/colorSolidTextTitle</item>
+    </style>
+
+    <!-- NUEVO ESTILO PARA LOS TÍTULOS DE LA TOOLBAR SEGÚN LOS FRAGMENTS -->
+    <style name="MyToolbarTitleFragment">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- ESTILO DEL TEXTO DE LA TOOLBAR -->
+    <style name="ToolbarTitleText" parent="Theme.AppCompat">
+        <item name="android:textColor">@color/colorTextBlackG</item>
+    </style>
+
+    <!-- ESTILO PARA LA STATUS-BAR Y NAVIGATION BAR -->
+    <style name="StatusBar">
+        <item name="android:background">@color/colorStatusBar</item>
+    </style>
+
+    <!-- ESTILO PARA LA NAV HEADER IMAGEN/TEXT -->
+    <style name="navHeaderContent">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@color/colorTransparent</item>
+    </style>
+
+    <!-- ESTILO PARA LA NAV HEADER CUADRO -->
+    <style name="navHeader">
+        <item name="android:background">@color/colorBgNavHeaderCuadro</item>
+    </style>
+
+    <!-- TEMA PARA EL "NAV VIEW" RECTÁNGULO DE ABAJO -->
+    <style name="navViewTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">@color/colorBgActivityGeneral</item>
+        <item name="itemIconTint">@color/colorIcons</item>
+    </style>
+
+    <!-- ESTILO PARA EL MAIN ACTIVITY -->
+    <style name="navActivityMain">
+        <item name="android:background">@color/colorBgActivityGeneral</item>
+    </style>
+
+    <!-- ESTILO PARA EL MENÚ EN LA NAVIGATION VIEW -->
+    <style name="MenuItemStyleMain">
+        <item name="android:textColor">@color/colorSolidTextTitle</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="toolTip">
+        <item name="android:background">@color/colorTransparent</item>
+    </style>
+
+    <!-- ESTILO DE LA BARRA DE NAVEGACIÓN INFERIOR -->
+    <style name="bottomNav">
+        <item name="android:background">@color/colorBgBottomNav</item>
+        <item name="itemIconTint">@color/colorIcons</item>
+    </style>
+
+    <!-- ESTILO PARA EL TÍTULO DEL MENÚ EN LA NAVIGATION VIEW -->
+    <style name="MenuTitleStyle">
+        <item name="android:textColor">@color/colorSolidTextTitle</item>
+    </style>
+
+    <!-- ESTILO PARA LA TOOLBAR PARA TODAS LAS CLASES -->
+    <style name="ToolBarAllClass">
+        <item name="android:background">@color/colorBgToolBar</item>
+    </style>
+
+    <!-- ESTILO PARA LA BARRA DE ESTADO PARA TODAS LAS CLASES -->
+    <style name="StatusBarAllClass" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">@color/colorBgActivityGeneral</item>
+        <item name="android:statusBarColor">@color/colorStatusBar</item>
+        <item name="android:navigationBarColor">@color/colorBgActivityGeneral</item>
+    </style>
+
+    <!-- ESTILOS PARA EL DISEÑO DE POPUP VERIFICATION DEL HOME-->
+    <style name="verication_conectionLayout" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">@color/colorBgLayoutsFloatGeneral</item>
+    </style>
+
+    <style name="TextPopupContent">
+        <item name="android:textColor">@color/colorOpaqueTextDescription</item>
+    </style>
+
+    <style name="TextPopupTitle">
+        <item name="android:textColor">@color/colorSolidTextTitle</item>
+    </style>
+
+    <style name="buttonGeneral">
+        <item name="android:background">@color/colorTransparent</item>
+        <item name="android:textColor">@color/CheckButton</item>
+    </style>
+
+    <!-- ESTILO DE FONDO DE LOS LAYOUTS -->
+    <style name="layoutBgG">
+        <item name="android:background">@color/colorBgActivityGeneral</item>
+    </style>
+
+    <!-- DISEÑO DE LOS LAYOUT FLOTANTES SOBRE LOS ACTIVITYS -->
+    <style name="DiseñoLayoutsFloatFragmentActivity">
+        <item name="android:background">@color/colorBgLayoutsFloatGeneral</item>
+    </style>
+
+    <!-- DISEÑO DE LOS TEXTOS SOBRE LOS LAYOUTS FLOTANTES SOBRE LOS ACTIVITY -->
+    <style name="DiseñoTextFloatFragments">
+        <item name="android:textColor">@color/colorSolidTextTitle</item>
+        <item name="android:background">@color/colorTransparent</item>
+    </style>
+
+    <!-- DISEÑO DE LOS TEXTOS SOBRE LOS ACTIVITY -->
+    <style name="DiseñoTextFragments">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/colorTransparent</item>
+    </style>
+
+    <!-- DISEÑO DEL RADIOBUTTON DEL SETTING ACTIVITY -->
+    <style name="DiseñoRadioButtonSetting" parent="Theme.AppCompat">
+        <item name="colorAccent">@color/colorPrincipal</item>
+        <item name="android:textColorSecondary">@color/colorPrincipal</item>
+    </style>
+
+    <!-- DISEÑO DEL EDIT TEXT DE "PROBLEM" EN REPORT ACTIVITY -->
+    <style name="DiseñoEditTextReportActivity" parent="ThemeOverlay.Material3.TextInputEditText">
+        <item name="android:textColorHint">@color/colorTextHint</item>
+        <item name="android:textColorPrimary">@color/colorSolidTextTitle</item>
+        <item name="colorPrimary">@color/colorPrincipal</item>
+        <item name="colorAccent">@color/colorPrincipal</item>
+        <item name="android:backgroundTint">@color/colorBgEditText</item>
+    </style>
+
+    <!-- DISEÑO DE LOS CARD VIEWS -->
+    <style name="DiseñoCardViewFloatLayoutActivity">
+        <item name="cardBackgroundColor">@color/colorBgCardView</item>
+    </style>
+
+    <!-- DISEÑO DE LOS CARD VIEWS BUTTON-->
+    <style name="DiseñoCardViewButton">
+        <item name="android:backgroundTint">@color/colorPrincipalB</item>
+    </style>l
+
+    <!-- DISEÑO DE COLOR PARA LOS DRAWABLES JUNTO A LOS EDIT TEXT (HINT) -->
+    <style name="DiseñoDrawableEditText">
+        <item name="drawableTint">@color/colorTextHint</item>
+    </style>
+
+    <!-- DISEÑO DE LOS BOTONES SOBRE LOS ACTIVITY -->
+    <style name="DiseñoButton" parent="Widget.AppCompat.Button">
+        <item name="backgroundTint">@color/colorTransparent</item>
+        <item name="android:textColor">@color/colorSolidTextTitle</item>
+    </style>
+
+</resources>

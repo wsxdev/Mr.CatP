@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_header"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="bottom"
+    android:padding="16dp"
+    style="@style/navHeader">
+
+    <ImageView
+        android:id="@+id/nav_header_imageView"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:src="@mipmap/ic_launcher_round"
+        style="@style/navHeaderContent"/>
+
+    <TextView
+        android:id="@+id/nav_header_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Mr. Cat"
+        style="@style/navHeaderContent"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/nav_header_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Si te aburres, domina el mundo"
+        style="@style/navHeaderContent"
+        android:ellipsize="end"
+        android:textSize="15sp"/>
+
+</LinearLayout>

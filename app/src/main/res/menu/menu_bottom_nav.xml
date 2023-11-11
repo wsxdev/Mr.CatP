@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_home"
+        android:title="Inicio"
+        android:icon="@drawable/ic_home" />
+
+    <item
+        android:id="@+id/item_historial"
+        android:title="Historial"
+        android:icon="@drawable/ic_history"/>
+
+    <item
+        android:id="@+id/item_favorite"
+        android:title="Favoritos"
+        android:icon="@drawable/ic_favorite"/>
+
+    <item
+        android:id="@+id/item_notes"
+        android:title="Notas"
+        android:icon="@drawable/ic_notes"/>
+</menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- COLORES ÚNICOS -->
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorIconBottomPresionado">#D887A1</color>
+    <color name="colorIconBottomSinPresionar">#AAAAAA</color>
+    <color name="colorPrincipal">#D887A1</color>
+    <color name="colorPrincipalB">#805D71</color>
+
+    <!-- COLORES DE PRUEBA -->
+    <color name="colorTEST">#673AB7</color>
+    <color name="colorTEST2Y">#FFE500</color>
+    <color name="colorTEST3R">#FF0057</color>
+
+
+    <!-- COLORES PARA EL MODO CLARO -->
+    <color name="colorTextBlackG">#000000</color>
+    <color name="colorBgToolBar">#9D748D</color>
+    <color name="colorBgNavHeaderCuadro">#9D748D</color>
+    <color name="colorStatusBar">#9D748D</color>
+    <color name="colorBgActivityGeneral">#F0F2F5</color>
+    <color name="colorBgLayoutsFloatGeneral">#FFFFFF</color>
+    <color name="colorBgBottomNav">#FFFFFF</color>
+    <color name="colorOpaqueTextDescription">#333333</color>
+    <color name="colorSolidTextTitle">#050505</color>
+    <color name="colorIcons">#737476</color>
+    <color name="colorBgEditText">#FAFAFA</color>
+    <color name="colorBgCardView">#F0F0F0</color>
+    <color name="colorTextHint">#666666</color>
+
+    <color name="CheckButton">#805D71</color>
+
+
+    <!-- COLORES PARA EL MODO OSCURO -->
+    <color name="colorTextWhiteB">#FFFFFF</color>
+    <color name="colorBgToolBarB">#805D71</color>
+    <color name="colorBgNavHeaderCuadroB">#805D71</color>
+    <color name="colorStatusBarB">#805D71</color>
+    <color name="colorBgActivityGeneralB">#171717</color>
+    <color name="colorBgLayoutsFloatGeneralB">#212121</color>
+    <color name="colorBgBottomNavB">#232527</color>
+    <color name="colorIconsB">#666666</color>
+    <color name="colorOpaqueTextDescriptionB">#D3D3D3</color>
+    <color name="colorSolidTextTitleB">#EAEAEA</color>
+    <color name="colorBgEditTextB">#232428</color>
+    <color name="colorBgCardViewB">#474e58</color>
+    <color name="colorTextHintB">#B2B3B5</color>
+    <color name="colorButton">#424242</color>
+
+    <color name="CheckButtonB">#D887A1</color>
+
+</resources>

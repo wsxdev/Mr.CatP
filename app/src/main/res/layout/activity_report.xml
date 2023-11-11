@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReportActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.5">
+
+            </androidx.constraintlayout.widget.Guideline>
+
+
+            <LinearLayout
+                android:id="@+id/one"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:background="@drawable/draw_b"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:background="@color/colorTEST">
+
+            </LinearLayout>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/GuideLineStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.05"/>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/GuideLineEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.95"/>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/GuideLineTop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.1">
+
+            </androidx.constraintlayout.widget.Guideline>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewDescription1ReportActivity"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintVertical_bias="0"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@id/GuideLineStart"
+                app:layout_constraintEnd_toEndOf="@id/GuideLineEnd"
+                app:layout_constraintTop_toTopOf="@id/GuideLineTop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="10dp">
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutTextViewActivityReport"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/DiseñoLayoutsFloatFragmentActivity">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/DiseñoTextFloatFragments"
+                        android:gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:textStyle="bold"
+                        android:text="@string/Description1ReportActivity">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <RadioGroup
+                android:id="@+id/RadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="@id/GuideLineStart"
+                app:layout_constraintEnd_toEndOf="@id/GuideLineEnd"
+                app:layout_constraintTop_toBottomOf="@+id/cardViewDescription1ReportActivity"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintVertical_bias="0.05"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <RadioButton
+                    android:id="@+id/ProblemButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="@string/RadioButtonProblem"
+                    android:background="@color/colorTransparent"
+                    android:textSize="20sp"
+                    android:theme="@style/DiseñoRadioButtonSetting"
+                    style="@style/DiseñoTextFloatFragments">
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/SuggestionsButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="@string/RadioButtonSuggestions"
+                    android:background="@color/colorTransparent"
+                    android:textSize="20sp"
+                    android:layout_marginStart="50dp"
+                    android:theme="@style/DiseñoRadioButtonSetting"
+                    style="@style/DiseñoTextFloatFragments">
+                </RadioButton>
+
+            </RadioGroup>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewDescriptionHintReportActivity"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintVertical_bias="0"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@id/GuideLineStart"
+                app:layout_constraintEnd_toEndOf="@id/GuideLineEnd"
+                app:layout_constraintTop_toBottomOf="@id/RadioGroup"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="10dp"
+                android:theme="@style/DiseñoCardViewFloatLayoutActivity">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/DiseñoEditTextReportActivity">
+
+                    <EditText
+                        android:id="@+id/EditTextReport"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:scrollHorizontally="false"
+                        android:hint="@string/DescriptionHintProblemReportActivity"
+                        android:inputType="textMultiLine"
+                        android:autofillHints="text"
+                        android:theme="@style/DiseñoEditTextReportActivity">
+
+                    </EditText>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/DiseñoEditTextReportActivity">
+
+                    <EditText
+                        android:id="@+id/EditTextSuggestions"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:scrollHorizontally="false"
+                        android:hint="@string/DescriptionHintSuggestionsReportActivity"
+                        android:inputType="textMultiLine"
+                        android:autofillHints="text"
+                        android:theme="@style/DiseñoEditTextReportActivity">
+
+                    </EditText>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:id="@+id/DateLinear"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="@id/GuideLineStart"
+                app:layout_constraintEnd_toEndOf="@id/GuideLineEnd"
+                app:layout_constraintTop_toBottomOf="@id/cardViewDescriptionHintReportActivity"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.05">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/DateText"
+                    android:gravity="center_vertical"
+                    android:theme="@style/DiseñoTextFragments"
+                    android:textSize="18sp">
+
+                </TextView>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/colorTransparent"
+                    android:gravity="end|center_vertical"
+                    android:drawableEnd="@drawable/ic_arrow_right"
+                    android:drawableTint="@color/colorTextHintB"
+                    android:hint="@string/RequiredField"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:inputType="none"
+                    android:autofillHints=""
+                    android:textSize="18sp"
+                    style="@style/DiseñoDrawableEditText"
+                    android:theme="@style/DiseñoEditTextReportActivity">
+
+                </EditText>
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/CardViewContact"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="@id/GuideLineStart"
+                app:layout_constraintEnd_toEndOf="@id/GuideLineEnd"
+                app:layout_constraintTop_toBottomOf="@id/DateLinear"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.05"
+                app:cardElevation="10dp"
+                app:cardCornerRadius="10dp"
+                android:theme="@style/DiseñoCardViewFloatLayoutActivity">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/DiseñoEditTextReportActivity">
+
+                    <EditText
+                        android:id="@+id/EditTextContact"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:gravity="center_vertical"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:scrollHorizontally="false"
+                        android:hint="@string/DescriptionHintContactReportActivity"
+                        android:inputType="textMultiLine"
+                        android:autofillHints="text"
+                        android:theme="@style/DiseñoEditTextReportActivity">
+
+                    </EditText>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+                <Button
+                    android:id="@+id/SendButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:layout_constraintStart_toStartOf="@id/GuideLineStart"
+                    app:layout_constraintEnd_toEndOf="@+id/GuideLineEnd"
+                    app:layout_constraintTop_toBottomOf="@id/CardViewContact"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0.9"
+                    android:text="@string/ButtonSend"
+                    android:backgroundTint="@null"
+                    android:background="@drawable/selector_button_report_activity">
+
+                </Button>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarReport"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@null"
+        app:title="Reportar"
+        app:titleTextAppearance="@style/MyToolbarTitleFragment"
+        app:layout_scrollFlags="scroll|enterAlways">
+
+    </androidx.appcompat.widget.Toolbar>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

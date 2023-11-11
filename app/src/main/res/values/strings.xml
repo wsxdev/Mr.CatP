@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Mr. Cat</string>
+    <string name="navigation_drawer_open">Abrir menú</string>
+    <string name="navigation_drawer_close">Cerrar menú</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragmentffdfddf</string>
+    <string name="hola">Título</string>
+
+
+    <!-- STRINGS DE REPORT ACTIVITY -->
+    <string name="Description1ReportActivity">Por favor, reporte los errores que encuentre en la app, para ayudarnos a resolverlos más rapido.</string>
+    <string name="RadioButtonProblem">Problemas</string>
+    <string name="RadioButtonSuggestions">Sugerencias</string>
+    <string name="ButtonSend">Enviar</string>
+    <string name="DescriptionHintProblemReportActivity">Describa el problema que ha encontrado: \n1. ¿En qué actividad ocurrió el problema?\n2. ¿Después de cuales acciones que realizó apareció el problema?\n3. Denos la información adicional que podría ayudarnos a solucionar el problema.\n4. Puede agregar capturas de pantalla de los errores ocurridos, para entender mejor su problema.</string>
+    <string name="DescriptionHintSuggestionsReportActivity">Díganos como le gustaría mejorar Mr. Cat\n\n</string>
+    <string name="DescriptionHintContactReportActivity">Número telefónico/Email</string>
+    <string name="DateButton">Fecha</string>
+    <string name="DateText">Fecha</string>
+    <string name="RequiredField">Campo necesario</string>
+</resources>
